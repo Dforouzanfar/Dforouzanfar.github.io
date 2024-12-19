@@ -1,8 +1,7 @@
-<div align="center">
-  <img src="https://github.com/Dforouzanfar/Dforouzanfar.github.io/blob/master/image/photo_2020.jpg" 
-       alt="Danial Forouzanfar" 
+<img src="https://github.com/Dforouzanfar/Dforouzanfar.github.io/blob/master/image/photo_2020.jpg" 
+       alt="My photo" 
        style="width: 150px; height: 150px; border-radius: 50%; border: 2px solid #000;">
-</div>
+
 <div align="center">
 <b>Danial Forouzanfar</b><br>Data Scientist
 </div>
