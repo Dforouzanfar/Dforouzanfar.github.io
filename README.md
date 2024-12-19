@@ -1,2 +1,2 @@
-<p align="center">**Danial Forouzanfar**</p>
-<p align="center">Data Scientist</p>
+<p align="center"># Danial Forouzanfar</p>
+<p align="center">## Data Scientist</p>
