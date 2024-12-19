@@ -1,16 +1,190 @@
-<div>
-       <img src="https://github.com/Dforouzanfar/Dforouzanfar.github.io/blob/master/image/photo_2020.jpg" 
-       alt="My photo" 
-       style="width: 150px; height: 150px; border-radius: 50%; border: 2px solid #000;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danial Forouzanfar - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #444;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div align="left">
+        <img src="https://github.com/Dforouzanfar/Dforouzanfar.github.io/blob/master/image/photo_2020.jpg?raw=true" 
+       style="width: 150px; height: 150px; border-radius: 50%; vertical-align: middle; margin-right: 100px">
+        <div style="display: inline-block; vertical-align: middle; text-align: center">
+          <b style="font-size: 32px; color: rgb(83, 104, 181);">Danial Forouzanfar</b><br>
+          <span style="font-size: 26px; color: rgb(83, 104, 181);">Data Scientist</span>
+        </div>
+      </div><br>
+      
+      <div class="section">
+        <span style="font-size: 26px; color: rgb(83, 104, 181);">
+            Contact Information</span><hr>
+        <p>
+          <li><strong>Location:</strong> Milan, Italy</li>
+          <li><strong>Phone:</strong> +393516726108</li>
+          <li><strong>Email:</strong> <a href="mailto:d.forouzanfar@yahoo.com">d.forouzanfar@yahoo.com</a></li>
+          <li><strong>LinkedIn:</strong> <a href="http://www.linkedin.com/in/danial-forouzanfar" target="_blank">Linkedin Page</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/Dforouzanfar" target="_blank">GitHub Page</a>
+        </p>
+      </div>
+      
+      <div class="section">
+        <span style="font-size: 26px; color: rgb(83, 104, 181);">
+            Skills</span><hr>
+        <table border="0" style="width: 100%; table-layout: fixed;">
+          <tr>
+            <td style="width: 33%;"><strong>Programming Languages:</strong>
+              <ul>
+                <li>Python</li><li>R</li>
+                <li>Matlab</li>
+              </ul>
+            </td>
+            <td style="width: 33%;"><strong>Technical:</strong>
+              <ul>
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+                <li>Statistical Analysis</li>
+              </ul>
+            </td>
+            <td style="width: 33%;"><strong>Database Management:</strong>
+              <ul>
+                <li>T-SQL</li>
+                <li>PostgreSQL</li>
+                <li>MongoDB</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 33%;"><strong>Applications:</strong>
+              <ul>
+                <li>Microsoft Office (Excel, etc.)</li>
+                <li>Power BI</li>
+                <li>SPSS Modeler</li>
+              </ul>
+            </td>
+            <td style="width: 33%;"><strong>Python Libraries:</strong>
+              <ul>
+                <li>Numpy, Pandas</li>
+                <li>Matplotlib, Seaborn</li>
+                <li>Scikit-learn, PyTorch</li>
+              </ul>
+            </td>
+            <td style="width: 33%;"><strong>Other:</strong>
+              <ul>
+                <li>Git</li>
+                <li>Communication</li>
+                <li>Problem-solving</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        
+        <div class="section">
+          <span style="font-size: 26px; color: rgb(83, 104, 181);">Languages</span>
+          <hr>
+          <table border="0" style="width: 100%; table-layout: fixed;">
+            <tr>
+              <td style="width: 33%;"><strong>English</strong>
+                <li>C1 - IELTS</li>
+              </td>
+              <td style="width: 33%;"><strong>Italian</strong>
+                <li>A2 - PLIDA, DANTE</li>
+              </td>
+              <td style="width: 33%;"><strong>Persian:</strong>
+                <li>Native</li>
+              </td>
+            </tr>
+          </table>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        # Az Inja be bad bayad kar beshe roosh
+        <div class="section">
+          <span style="font-size: 26px; color: rgb(83, 104, 181);">Education</span><hr>
+            <ul>
+                <li>
+                    <strong>Master's Degree (2022-Present):</strong> Data Science for Economics<br>
+                    Università degli Studi di Milano
+                </li>
+                <li>
+                    <strong>Bachelor's Degree (2016-2019):</strong> Industrial Engineering<br>
+                    Azad University – TNB, GPA: 18.14/20<br>
+                    Thesis evolved into a published book on development policies.
+                </li>
+            </ul>
+        </div>
 
-<div align="center">
-<b>Danial Forouzanfar</b><br>Data Scientist
-</div></div>
+        <div class="section">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <strong>Teaching Assistant (2021-2023):</strong><br>
+                    Supported a 360-hour comprehensive data science course at the University of Tehran for 50 students.
+                </li>
+                <li>
+                    <strong>Production Planning (2019-2022):</strong><br>
+                    Interned at Sepehr Safety Glass Co., later leading the production team to enhance product features and customer satisfaction.
+                </li>
+            </ul>
+        </div>
 
-### Contact Information
----  
-- Location: Milan, Italy 
-- Phone: +39 351 672 6108
-- Email: [d.forouzanfar@yahoo.com](mailto:d.forouzanfar@yahoo.com)
-- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/danial-forouzanfar/)
-- GitHub: [GitHub Page](https://github.com/Dforouzanfar) 
+        <div class="section">
+            <h2>Publication & Projects</h2>
+            <ul>
+                <li>
+                    Binary image classification project using Convolutional Neural Networks (Accuracy: 94.5%).
+                    <a href="https://github.com/Dforouzanfar/Image_Classification" target="_blank">Repository</a>
+                </li>
+                <li>
+                    Factor identification for insurance pricing mechanism using data mining and multi-criteria decision making.
+                    <a href="https://link.springer.com/article/10.1007/s12652-021-03585-z" target="_blank">Article</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
