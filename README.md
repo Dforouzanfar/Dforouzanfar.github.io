@@ -167,7 +167,7 @@
       <li><strong>Date:</strong> Sep 2022 - Present</li>
       <li><strong>Description:</strong> Developed strong programming skills through hands-on projects and coursework, focusing on machine learning and data analysis.</li>
     </ul>
-    <div style="font-size: 20px; font-weight: bold;">Bachelor's Degree in Industrial Engineering</div>
+    <div style="font-size: 20px; font-weight: bold;">Bachelor's Degree</div>
     <ul>
       <li><strong>Major:</strong> Industrial Engineering</li>
       <li><strong>University:</strong> Azad University – TNB</li>
