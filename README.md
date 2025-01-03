@@ -173,7 +173,7 @@
       <li><strong>University:</strong> Azad University – TNB</li>
       <li><strong>GPA:</strong> 18.14 / 20</li>
       <li><strong>Date:</strong> Sep 2016 - Jul 2019</li>
-      <li><strong>Thesis:</strong> Authored a thesis that evolved into a published book, proposing development policies for industrial sectors.</li>
+      <li><strong>Description:</strong> Authored a thesis that evolved into a published book, proposing development policies for industrial sectors.</li>
     </ul>
   </div>
 
