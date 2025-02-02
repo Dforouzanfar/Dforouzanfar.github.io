@@ -5,7 +5,7 @@
     <title>Danial Forouzanfar - Resume</title>
     <style>
         body {
-            font-family: Cambria', serif;
+            font-family: Cambria, serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
@@ -40,38 +40,49 @@
             text-decoration: underline;
         }
         .skills-container {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 10px;
-          justify-content: space-between;
-      }
-      .skill-category {
-           flex: 1 1 30%;  /* 30% width for larger screens */
-           min-width: 250px;  /* Ensures each item has a minimum width */
-      }
-      @media screen and (max-width: 500px) {
-        .skill-category {
-          flex: 1 1 100%;  /* Stack skills vertically on smaller screens */
-           }
-      }
-      .languages-container {
-        display: flex;
-        gap: 10px;
-        justify-content: space-between;
-        flex-wrap: wrap;
-      }
-      .language {
-        flex: 1 1 30%;
-        min-width: 250px;
-      }
-      @media screen and (max-width: 500px) {
-        .language {
-          flex: 1 1 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: space-between;
         }
-      }
-       </style>
-    </head>
-  
+        .skill-category {
+            flex: 1 1 30%; /* 30% width for larger screens */
+            min-width: 250px; /* Ensures each item has a minimum width */
+        }
+        @media screen and (max-width: 500px) {
+            .skill-category {
+                flex: 1 1 100%; /* Stack skills vertically on smaller screens */
+            }
+            .container {
+                padding: 10px; /* Adjust container padding */
+            }
+            .container div {
+                text-align: center;
+            }
+            .container b {
+                font-size: 30px; /* Adjust font size for mobile */
+            }
+            .container span {
+                font-size: 24px; /* Adjust font size for mobile */
+            }
+        }
+        .languages-container {
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .language {
+            flex: 1 1 30%;
+            min-width: 250px;
+        }
+        @media screen and (max-width: 500px) {
+            .language {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
   
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
@@ -88,16 +99,16 @@
   
   <div class="section">
     <span style="font-size: 26px; color: rgb(83, 104, 181);">Contact Information</span><hr>
-      <div  style="text-align: center">
+      <div style="text-align: center">
         <strong>Location:</strong> Milan, Italy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <strong>Phone:</strong> +393516726108 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <strong>Email:</strong> <a href="mailto:d.forouzanfar@yahoo.com">d.forouzanfar@yahoo.com</a>
         <br><br>
-    <!-- LinkedIn Badge -->
+        <!-- LinkedIn Badge -->
         <a href="http://www.linkedin.com/in/danial-forouzanfar" target="_blank" class="btn btn-primary">
           <i class="bi bi-linkedin"></i> LinkedIn
         </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <!-- GitHub Badge -->
+        <!-- GitHub Badge -->
         <a href="https://github.com/Dforouzanfar" target="_blank" class="btn btn-dark">
           <i class="bi bi-github"></i> GitHub
         </a>
@@ -156,7 +167,7 @@
             </ul>
         </div>
     </div>
-</div>
+  </div>
         
   <div class="section">
     <span style="font-size: 26px; color: rgb(83, 104, 181);">Education</span><hr>
@@ -177,7 +188,6 @@
     </ul>
   </div>
 
-        
   <div class="section">
     <span style="font-size: 26px; color: rgb(83, 104, 181);">Experience</span><hr>
     <span style="font-size: 20px; font-weight: bold;">Teaching Assistant</span><br>
@@ -247,7 +257,6 @@
       </div>
     </div>
   </div>
-    
-  </div>
+</div>
 </body>
 </html>
