@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danial Forouzanfar - Resume</title>
     <style>
-        body {
+      body {
             font-family: Cambria, serif;
             line-height: 1.6;
             margin: 0;
@@ -12,44 +12,48 @@
             background-color: #f9f9f9;
             color: #333;
         }
-        .container {
+      footer {
+            text-align: center;
+            padding: 10px;
+        }
+      .container {
             max-width: 800px;
             margin: 20px auto;
             background: #fff;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2, h3 {
+      h1, h2, h3 {
             color: #444;
         }
-        .section {
+      .section {
             margin-bottom: 20px;
         }
-        .section h2 {
+      .section h2 {
             border-bottom: 2px solid #ddd;
             padding-bottom: 5px;
         }
-        ul {
+      ul {
             padding-left: 20px;
         }
-        a {
+      a {
             color: #0066cc;
             text-decoration: none;
         }
-        a:hover {
+      a:hover {
             text-decoration: underline;
         }
-        .skills-container {
+      .skills-container {
             display: flex;
             flex-wrap: wrap;
             gap: 10px;
             justify-content: space-between;
         }
-        .skill-category {
+      .skill-category {
             flex: 1 1 30%; /* 30% width for larger screens */
             min-width: 250px; /* Ensures each item has a minimum width */
         }
-        @media screen and (max-width: 500px) {
+      @media screen and (max-width: 500px) {
             .skill-category {
                 flex: 1 1 100%; /* Stack skills vertically on smaller screens */
             }
@@ -66,17 +70,17 @@
                 font-size: 24px; /* Adjust font size for mobile */
             }
         }
-        .languages-container {
+      .languages-container {
             display: flex;
             gap: 10px;
             justify-content: space-between;
             flex-wrap: wrap;
         }
-        .language {
+      .language {
             flex: 1 1 30%;
             min-width: 250px;
         }
-        @media screen and (max-width: 500px) {
+      @media screen and (max-width: 500px) {
             .language {
                 flex: 1 1 100%;
             }
@@ -204,6 +208,13 @@
       <li><strong>Date:</strong> Jul 2019 - Sep 2022</li>
       <li><strong>WebSite:</strong> <a href="https://www.gilanglass.com/en" target="_blank">GilanGlassCompany</a></li>
     </ul>
+    <span style="font-size: 20px; font-weight: bold;">Teaching Assistant</span><br>
+    Held the position of Teaching Assistant for 2 semesters during my bachelor’s studies at Azad University.
+    <ul>
+      <li><strong>Organization:</strong>Azad University</li>
+      <li><strong>Date:</strong> Sep 2018 - Jul 2019</li>
+      <li><strong>WebSite:</strong> <a href="https://ntb.iau.ir/en" target="_blank">Azad University - TNB</a></li>
+    </ul>
   </div>
 
   <div class="section">
@@ -258,5 +269,9 @@
     </div>
   </div>
 </div>
+  
+ <footer>
+        <p>&copy; 2025 Danial Forouzanfar. All rights reserved.</p>
+        </footer>
 </body>
 </html>
