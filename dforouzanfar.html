@@ -209,7 +209,7 @@
   <div class="section">
     <span style="font-size: 26px; color: rgb(83, 104, 181);">Publication & Projects</span><hr>
       <ul>
-        <li>Binary image classification project using three different architectures of <b>Convolutional Neural Networks.</b>.
+        <li>Binary image classification project using three different architectures of <b>Convolutional Neural Networks.</b>
         </li>
         <ul>
           <li>The best performance, with an accuracy of 94.5% on the test set, was achieved using the AlexNet architecture.
