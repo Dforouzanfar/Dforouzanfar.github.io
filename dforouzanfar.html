@@ -316,9 +316,9 @@
          </ul>
     </div>
 
-</div>  
- <footer>
-   <p>&copy; 2025 Danial Forouzanfar. All rights reserved.</p>
- </footer>
+</div>
 </body>
+    <footer>
+       <p>&copy; 2025 Danial Forouzanfar. All rights reserved.</p>
+     </footer>
 </html>
