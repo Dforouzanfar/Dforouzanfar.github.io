@@ -306,7 +306,9 @@
         </a>
       </li>
     </ul>
-    <div class="section">
+  </div>
+  
+  <div class="section">
       <span style="font-size: 26px; color: rgb(48, 84, 150);">Hobbies</span><hr>
          <ul>
            <li><strong>Reading:</strong> Enthusiastic about reading mystery and philosophy books, gaining insights and perspectives to use them in everyday life.</li>
@@ -317,8 +319,9 @@
     </div>
 
 </div>
+<footer>
+   <p>&copy; 2025 Danial Forouzanfar. All rights reserved.</p>
+</footer>
+
 </body>
-    <footer>
-       <p>&copy; 2025 Danial Forouzanfar. All rights reserved.</p>
-     </footer>
 </html>
